@@ -1,0 +1,5 @@
+<%= form_tag({controller: "calculator", action: "calc"}, method: "post") do %>
+  <%= label_tag(:amount, "Get Coinage:") %>
+  <%= text_field_tag(:amount) %>
+  <%= submit_tag("Get Conage") %>
+<% end %>
